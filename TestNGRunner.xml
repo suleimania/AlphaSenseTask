@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AlphaSense Automation" verbose="1">
+    <test name="AlphaSense Test">
+        <packages>
+            <package name="com.AlphaSense.tests.API"></package>
+            <package name="com.AlphaSense.tests.UI">
+            </package>
+        </packages>
+    </test>
+</suite>
